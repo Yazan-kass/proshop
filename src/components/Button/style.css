@@ -1,0 +1,72 @@
+button {
+  min-width: 20%;
+  height: 40px;
+  padding: 15px 20px;
+  font-size: 16px;
+  background: #fcdd06;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Mulish", sans-serif;
+}
+
+.inHeader {
+  position: relative;
+  left: -5px;
+}
+.AddToCart,
+.fav,
+.Storge,
+.StorgeActive,
+.inProduct,
+.favInProduct {
+  background: #f2f2f2;
+  border-radius: 10px;
+  height: 42px;
+}
+.AddToCart {
+  min-width: 80%;
+}
+
+.fav {
+  min-width: 15%;
+  padding: 15px;
+}
+
+.Storge {
+  height: 35px;
+  min-width: 0;
+}
+
+.StorgeActive {
+  background: #000;
+  color: #fff;
+  height: 35px;
+  min-width: 0;
+}
+
+.inProduct {
+  background: #fcdd06;
+  min-width: 78%;
+  height: 45px;
+}
+
+.favInProduct {
+  background: #fff;
+  border: 1px solid #fcdd06;
+  min-width: 15%;
+  padding: 15px;
+  height: 45px;
+}
+
+.inPayment {
+  font: normal normal normal 22px/13px "Mulish";
+  float: right;
+  margin-top: 15px;
+  width: 20%;
+}

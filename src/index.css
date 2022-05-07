@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 2300px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+main {
+  /* width: 80%; */
+  /* margin: 0px 7.3%; */
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+h3{
+  font-family: Mulish;
+  text-transform: uppercase;
+}
+
+.FeaturedCategories , .TopRateProducts {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.Text_Dots{
+  justify-content: space-between;
+}
+
+.Dots{
+  width: 6%;
+}
+.HorizentalLine{
+  position: relative;
+  width: 100%;
+}
+
+
+hr:before{
+  content: "";
+  background-color: #FCDD06;
+  width: 10%;
+  height: 4px;
+  font-size: 12px;
+  position: absolute;
+  top: -4px;
+}
+hr{
+  margin-top: 15px;
+  border-color: #70707030;
+  width: 100%;
+}
+.Categories,.products , .TopProducts{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Categories > div {
+  width: 23%;
+}
+
+.FeaturedProducts{
+  flex-direction: column;
+}
+
+.FeaturedProducts h3{
+  margin-top: 40px;
+}
+
+
+.FeaturedProducts .HorizentalLine hr::before{
+  left: 45%;
+  top: 12px;
+}
+
+.products > div , .TopProducts > div {
+  width: 32%;
+}
+.ProductsSection {
+  height: 670px;
+}
+.ProductsSection .container {
+flex-direction: column;
+justify-content: space-around;
+height: 620px;
+}
+
+.ProductsSection .container > div {
+  width: 100%;
+}
+
+.ProductsSection .Dots{
+  width: 4% !important;
+}
+
+
+.TopProducts{
+  border: 1px solid #FCDD06;
+  border-radius: 16px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.TopProducts > div {
+  border-left: 1px solid #70707030;
+  border-radius: 0;
+}

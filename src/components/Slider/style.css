@@ -1,0 +1,71 @@
+.background {
+  /* height: 550px; */
+  background: #f2f2f2;
+  /* background: #d41818; */
+}
+
+.slider {
+  justify-content: space-between;
+  width: 100%;
+}
+.align {
+  justify-content: start;
+  flex-direction: column !important;
+  align-items: flex-start;
+  /* height: 500px; */
+  width: 40%;
+}
+.detail {
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: flex-start;
+  /* text-align: left; */
+  height: 250px;
+  /* width: 30%; */
+  /* margin: auto; */
+}
+.detail p:first-of-type {
+  height: 30px;
+  /* text-align: left; */
+  font: normal normal 100 25px/15px "Mulish";
+  letter-spacing: 1.28px;
+  color: #242424;
+  opacity: 1;
+}
+.detail p:last-of-type {
+  height: 75px;
+  /* text-align: left; */
+  font: normal normal 300 25px/40px "Mulish";
+  letter-spacing: 0.48px;
+  color: #242424;
+  opacity: 1;
+}
+h1 {
+  /* height: 75px; */
+  text-align: left;
+  font: normal normal 900 50px/15px "Mulish";
+  letter-spacing: 2.4px;
+  color: #242424;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.img img {
+  width: 100%;
+  object-fit: cover;
+  /* height: 643px; */
+}
+.split {
+  width: 20%;
+}
+
+.alice-carousel__dots-item:not(.__custom) {
+  width: 14px !important;
+  height: 14px !important;
+}
+
+.alice-carousel__dots {
+  position: absolute;
+  bottom: 0rem;
+  left: 50%;
+  transform: translate(-50%, -120%);
+}

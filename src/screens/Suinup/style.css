@@ -1,0 +1,13 @@
+.have-account{
+    height: 28px;
+    margin-left: 25%;
+/* UI Properties */
+text-align: left;
+font: normal normal 300 22px/15px 'Mulish';
+letter-spacing: 0.88px;
+color: #707070;
+}
+
+.have-account span{
+    color: #242424;
+}

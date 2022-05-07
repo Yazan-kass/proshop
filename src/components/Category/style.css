@@ -1,0 +1,25 @@
+.Category {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.CtgImg {
+  justify-content: center;
+  align-items: center;
+  background: #f7f8fc;
+  height: 240px;
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 15px;
+}
+.CtgImg img {
+  width: 80%;
+  object-fit: cover;
+  /* height: 643px; */
+}
+
+h4 {
+  font-family: Mulish;
+  text-transform: uppercase;
+}
+

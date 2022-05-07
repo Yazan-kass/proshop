@@ -1,0 +1,19 @@
+.TechnicalDetail {
+  width: 49%;
+  height: 50px;
+  margin: 5px 0;
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  font-size: 17px;
+  font-family: "Mulish", sans-serif;
+  justify-content: space-around;
+}
+
+.Brand {
+  text-align: left;
+}
+.BrandName {
+  width: 60%;
+  justify-content: center;
+  /* text-align: left; */
+}

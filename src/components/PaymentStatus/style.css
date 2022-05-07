@@ -1,0 +1,48 @@
+.payment{
+    height: 390px;
+    margin-top: 25px !important;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+}
+.payment-success {
+    width: 60%;
+    height: 40px;
+    padding-top: 20px;
+    margin-left: 10px;
+    text-align: left;
+    font: normal normal bold 32px/15px 'Mulish';
+    letter-spacing: 1.28px;
+    color: #242424;
+    opacity: 1;
+}
+.payment-titel{
+    width: 20%;
+    height: 30px;
+    margin-left: 10px;
+    text-align: left;
+    font: normal normal bold 20px/10px 'Mulish';
+    letter-spacing: 0.96px;
+    color: #242424;
+    opacity: 1;
+}
+
+.payment-item{
+    width: 80%;
+    height: 20px;
+    text-align: left;
+    font: normal normal bold 16px/15px 'Mulish';
+    letter-spacing: 0.64px;
+    color: #707070;
+    opacity: 1;
+}
+.email-addres{
+    width: 35%;
+    height: 52px;
+    margin-left: 10px;
+    text-align: left;
+    font: normal normal 300 16px/30px 'Mulish';
+    letter-spacing: 0.64px;
+    color: #242424;
+    opacity: 1;
+}

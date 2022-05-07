@@ -1,0 +1,52 @@
+.Product {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+  border-radius: 16px;
+  white-space: nowrap;
+  text-align: center;
+  height: 460px;
+}
+.ProductImg {
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+  /* margin-bottom: 15px; */
+  object-fit: cover;
+}
+.ProductImg img {
+  width: 80%;
+  object-fit: cover;
+  /* height: 643px; */
+}
+.Buttons {
+  width: 70%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+h5 {
+  font-family: Mulish;
+  text-transform: uppercase;
+  font-size: 14.5px;
+}
+
+.NewPrice {
+  color: #fc4059;
+}
+
+.NewPrice span {
+  text-decoration: line-through;
+  color: #111;
+}
+
+.rating {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.rating div {
+  align-items: center;
+  width: 30%;
+}
